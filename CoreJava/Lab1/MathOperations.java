@@ -2,7 +2,7 @@ package CoreJava.Lab1;
 
 import java.util.Scanner;
 
-class MathOperations {
+public class MathOperations {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
