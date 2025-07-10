@@ -7,7 +7,7 @@ public class SumOfDigits {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a positive number: ");
         int num = sc.nextInt();
 
         int sum = 0;
@@ -18,7 +18,6 @@ public class SumOfDigits {
         }
 
         System.out.println("Sum of digits: " + sum);
-
         sc.close();
     }
 }
