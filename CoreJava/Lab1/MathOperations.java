@@ -29,7 +29,7 @@ public class MathOperations {
             System.out.println("Cannot be divisible by zero.");
         }
 
-        double average = sum / 2;
+        double average = sum / 2.0;
 
         System.out.println("\nResults:");
         System.out.println("Sum: " + sum);
