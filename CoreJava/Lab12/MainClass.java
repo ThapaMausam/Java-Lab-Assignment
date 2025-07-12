@@ -27,7 +27,7 @@ class ThreadB implements Runnable {
 }
 
 public class MainClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ThreadA even = new ThreadA();
         ThreadB odd = new ThreadB();
 
@@ -35,7 +35,10 @@ public class MainClass {
         Thread t2 = new Thread(odd);
 
         t1.start();
+        t1.join();
+
         t2.start();
+        t2.join();
 
         System.out.println("\nMain thread has launched Thread A and Thread B.");
 
