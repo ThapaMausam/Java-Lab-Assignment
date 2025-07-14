@@ -1,5 +1,6 @@
+Must be in root directory
 #To Compile:
-Example: javac CoreJava/Lab1/MathOperations.java
+Example: mausamthapa@Mausams-MacBook-Air Java-Lab-Assignment % javac CoreJava/Lab1/MathOperations.java
 
 #To Run:
-Example: java CoreJava/Lab1/MathOperations
+Example: mausamthapa@Mausams-MacBook-Air Java-Lab-Assignment % java CoreJava/Lab1/MathOperations
