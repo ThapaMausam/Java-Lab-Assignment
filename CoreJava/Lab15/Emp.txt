@@ -1,0 +1,5 @@
+ID: 18
+Name: Mausam Thapa
+Address: Tokha, Kathmandu
+DOB: 2003-05-01
+Phone: 98XXXXXXXX
