@@ -9,7 +9,7 @@ public class BorderLayoutExample {
         JFrame frame = new JFrame("BorderLayout Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
-        frame.setLayout(new BorderLayout());
+        // frame.setLayout(new BorderLayout());
 
         // Create components
         JButton button1 = new JButton("NORTH");
