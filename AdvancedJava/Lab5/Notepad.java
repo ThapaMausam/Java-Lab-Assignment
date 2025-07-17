@@ -32,6 +32,7 @@ public class Notepad {
             @Override
             public void actionPerformed(ActionEvent e) {
                 textArea.setText("");
+                JOptionPane.showMessageDialog(frame, "New document created", "New", JOptionPane.INFORMATION_MESSAGE);
             }
         });
 
@@ -55,7 +56,11 @@ public class Notepad {
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                int confirm = JOptionPane.showConfirmDialog(frame, "Are you sure you want to exit?", "Exit",
+                        JOptionPane.YES_NO_OPTION);
+                if (confirm == JOptionPane.YES_OPTION) {
+                    System.exit(0);
+                }
             }
         });
 
