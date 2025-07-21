@@ -94,14 +94,11 @@ public class Notepad {
         });
 
         // exit Button
-        exitButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int confirm = JOptionPane.showConfirmDialog(frame, "Are you sure you want to exit?", "Exit",
-                        JOptionPane.YES_NO_OPTION);
-                if (confirm == JOptionPane.YES_OPTION) {
-                    System.exit(0);
-                }
+        exitButton.addActionListener(e -> {
+            int confirm = JOptionPane.showConfirmDialog(frame, "Are you sure you want to exit?", "Exit",
+                    JOptionPane.YES_NO_OPTION);
+            if (confirm == JOptionPane.YES_OPTION) {
+                System.exit(0);
             }
         });
 
